@@ -2,43 +2,88 @@ body {
     font-family: sans-serif;
 }
 
-footer {
-    display: flex;
-    justify-content: space-around;
-}
-
-h1 {
-    color: #37B6CE;
-    text-align: center;
-}
-
 header {
-    background-color: #04859D;
-    padding-bottom: 53px;
-    margin-bottom: 20px;
+    background-color: navy;
+    padding: 20px;
+    width: 1100px;
 }
 
 header a {
-    background-color: #FF7C00;
-    padding: 5px;
-    position: absolute;
-    top: 20px;
-    left: 22px;
+    color: black;
+    background-color: white;
+    font-size: 20px;
     text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
 }
 
-p {
-    margin-left: 20px;
+header img {
+    width: 200px;
+    height: 60px;
 }
 
-header a:focus {
+.sp_button {
+    background-color: #2adede;
+    border: 1px solid #2adede;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+    border-bottom: 2px solid navy;
+    padding-bottom: 5px;
+    width: 1100px;
+}
+
+h2 {
+    color: blueviolet;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+}
+
+article {
+    font-size: 20px;
+    padding: 20px;
+    width: 800px;
+    margin: 20px;
+    border: 1px solid navy;
+    border-radius: 15px;
+    text-align: center;
+}
+
+article img {
+    height: 150px;
+    width: 200px;
+}
+
+.nb_news {
+    background-color: navy;
     color: white;
 }
 
-.link-nav {
-    margin: 0px 0px 0px 20px;
+footer {
+    background-color: #8fddf2;
+    padding: 10px;
+    width: 1100px;
 }
 
-.link-nav:focus {
-    color: #FF7C00;
+footer p {
+    background-color: white;
+    padding: 5px;
+}
+
+.page {
+    position: relative;
+    width: 80px;
+    bottom: 100px;
 }
