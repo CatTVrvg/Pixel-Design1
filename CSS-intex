@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    color: #37B6CE;
+    text-align: center;
+}
+
+header {
+    background-color: #04859D;
+    padding-bottom: 53px;
+    margin-bottom: 20px;
+}
+
+header a {
+    background-color: #FF7C00;
+    padding: 5px;
+    position: absolute;
+    top: 20px;
+    left: 22px;
+    text-decoration: none;
+}
+
+p {
+    margin-left: 20px;
+}
+
+header a:focus {
+    color: white;
+}
+
+.link-nav {
+    margin: 0px 0px 0px 20px;
+}
+
+.link-nav:focus {
+    color: #FF7C00;
+}
