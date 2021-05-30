@@ -1,26 +1,30 @@
 <html>
-  <head>
-    <title>My Sites</title>
-    <link rel="stylesheet" href="style.css"/>
-  </head>
-  <body>
-    <header>
-      <a class="link-header" href="index.html">Главная</a>
-    </header>
-    <main>
-      <h1>Мои сайты</h1>
-      <p class="text-big"><b>от конструктора Tilda до вёрстки на HTML и CSS</b></p>
-      <p><a class="link-text" href="http://cat-home-with-love.tilda.ws/"><b>Сайт</b></a> кошачьего питомника из нескольких страниц был собран в Tilda</p>
-        <p><a class="link-text" href="https://kurs-ss-vilboa.github.io/-3-4-/"><b>Сайт</b></a> игровой студии, стили были написаны в атрибуте style</p>
-        <p><a class="link-text" href="https://nadvilboa.github.io/4-4-1/"><b>Сайт</b></a> магазина фейерверков, CSS-селекторы, файл стилей</p>
-      <p><a class="link-text" href="https://www.figma.com/file/yJ5xvz8KVMHojc2Z0R4Yh1/%D0%BC5%D1%834-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82?node-id=0%3A1"><b>Макет</b></a> многостраничного сайта, сделанный в Figma</p>
-        <p><a class="link-text" href="https://nadvilboa.github.io/5-4-1/"><b>Сайт</b></a> семьи Самойловых вёрстка по макету, отступы</p>
-        <p>Бонус: <a class="link-text" href="https://nadvilboa.github.io/-4-3_bonus/"><b>Сайт</b></a> турнира по киберспорту</p>
-    </main>
-    <footer>
-      <a class="social" href=""><img src="https://mars.algoritmika.org/uploads/2021/04/social1_0_1618254571.png" width="100px" height="100px"/></a>
-      <a class="social" href=""><img src="https://mars.algoritmika.org/uploads/2021/04/Group%201_0_1618254571.png" width="100px" height="100px"/></a>
-      <a class="social" href=""><img src="https://mars.algoritmika.org/uploads/2021/04/social3_0_1618254571.png" width="100px" height="100px"/></a>
-    </footer>
-  </body>
+    <body>
+        <header>
+            <img src="https://mars.algoritmika.org/uploads/2020/11/logo_0_1606475988.png"/>
+            <a class="sp_button" href="#news">Новости</a>
+            <a href="#contest">Конкурс</a>
+            <a href="#plans">Планы развития</a>
+        </header>
+        <main>
+            <h1>Pixel Design</h1>
+            <h2 id="news">Наши последние новости</h2>
+            <section class="posts">
+                <article class="post">
+                    <img class="page" src="https://mars.algoritmika.org/uploads/2021/03/page_0_1615571334.svg"/><img src ="https://mars.algoritmika.org/uploads/2020/11/news_0_1606476698.png"><br/>В нашей студии новый дизайнер: пиксель Cube. Именно он будет выполнять ваши заказы по трёхмерной графике. Увлекается ладшафтным и интерьерным дизайном. Недавно он давал интервью газете <i class="nb_news">Progress news</i>.
+                </article>
+                <article class="post">
+                    <img class="page" src="https://mars.algoritmika.org/uploads/2021/03/page_0_1615571334.svg"/><img src="https://mars.algoritmika.org/uploads/2020/11/pixel-cells-3702056_1280_0_1606479607.png"/><br/>Весной следующего года мы участвуем в конкурсе дизайна. Наши работы будут представлены в направлениях: <i class="nb_news">веб-дизайн, полиграфический дизайн, дизайн интерьеров</i>. По каждому направлению мы собираемся представить несколько работ, которые пройдут предварительный отбор в нашей студии.
+                </article>
+                <article class="post">
+                    <img class="page" src="https://mars.algoritmika.org/uploads/2021/03/page_0_1615571334.svg"/><img src="https://mars.algoritmika.org/uploads/2020/11/plans_0_1606479762.png"/><br/>В этом месяце мы готовим <i class="nb_news">годовое планирование нашей работы</i>. Кроме того, что мы принимаем и выполняем клиентские заказы по дизайну, мы участвуем в конкурсах, учимся на онлайн курсах, повышающих наше мастерство, просматриваем сборники лучших работ, которые можно найти в Интернете.
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p><b><i>Контакты</i></b></p>
+            <p>Адрес: г. Техноград, ул. Дисплейная, 15</p>
+            <p>Тел.: 8895-6341</p>
+        </footer>
+    </body>
 </html>
